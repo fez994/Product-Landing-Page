@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+#logo {
+	height: auto;
+	width: auto;
+	max-height: 72px;
+	max-width: 250px;
+}
+
+
+.bg-dark {
+	background-color: #1B1C20 !important;
+}
+
+.background-image {
+  background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-234252.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+#title {
+	text-transform: uppercase;
+}
+
+
+#background-white {
+	background-color: white;
+}
+
+
+h1 {
+	text-align: center;
+	color: white;
+	position: fixed;
+	top: 50%;
+	left: 35%;
+}
+
