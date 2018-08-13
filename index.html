@@ -1,75 +1,110 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Barbell Templates</title>
-	
-	
-	<!-- boostrap stylesheet -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<!-- css -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-</head>
-<body>
-
-<div class="background-image">
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-super-dark">
-  <img class="navbar-brand img-responsive" href="#" src="img/logo.png" id="logo"></img>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav mr-auto" id="right">
-      <a class="nav-item nav-link active" href="#" id="title">Barbell Programs <span class="sr-only">(current)</span></a>
-      
-    </div>
-
-    <div class="navbar-nav ml-auto">
-    	<a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link" href="#">Whatever</a>
-    </div>
-
-       </div>
-  
-</nav>
-
-
-	
-	
-		<h1>Join Barbell Programs Now</h1> <br>
-		
-		
-
-
-
-
-</div>
-
-<div class="container" id="background-white">
-	<p>LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-	LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-	LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-	LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-	LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-	LoremLoremLoremLoremLoremLoremLorem
-	</p>
-</div>
-
-
-
-
-
-
-<!-- my script -->
-<script type="text/javascript" src="js/index.js"></script>
-
-<!-- JS, Popper JS, Jquery -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-
-</body>
+   <head>
+      <title>Barbell Templates</title>
+      <!-- boostrap stylesheet -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <!-- css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+      <header class="background-image" id="header-img">
+         <!-- Navbar -->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-super-dark fixed-top" id="nav-bar">
+            <img class="navbar-brand img-responsive" href="#" src="img/logo.png" id="logo"></img>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+               <div class="navbar-nav mr-auto" id="right">
+                  <a class="nav-item nav-link active" href="#" id="title">Barbell Templates <span class="sr-only">(current)</span></a>
+               </div>
+               <div class="navbar-nav ml-auto" id="nav">
+                  <a class="nav-item nav-link" href="#second-section">Get Stronger</a>
+                  <a class="nav-item nav-link" href="#third-section">Pricing</a>
+                  <a class="nav-item nav-link" href="#fourth-section">Contacts</a>
+               </div>
+            </div>
+         </nav>
+         <!-- Title and email section -->
+         <div class="first-section">
+            <h1>Join Barbell Templates Now</h1>
+            <br>
+            <div class="input-group">
+               <form id="join_us form" class="form-inline" action="https://www.freecodecamp.com/email-submit">
+                  <input type="email" name="" placeholder="Enter your email" class="form-control" id="email" required>
+                  <input type="submit" class="btn btn-info" id="submit" value="submit">
+               </form>
+            </div>
+         </div>
+         <!-- Animated Arrow -->
+         <div class="bounce"><a href="#second-section"></a></div>
+      </header>
+      <!-- Second Section AKA "There are no sexy answers" -->
+      <div class="container" id="second-section">
+         <div class="row">
+            <div class="column" id="youtube_video">
+               <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/I_WOg39qLmA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="column">
+               <h2 id="no_answers">There are no sexy answers</h2>
+               <p id="description">If you want to get strong you need to put in the work.
+                  Barbell Templates facilitate that by giving you ready to use templates for strength training so that you know how to achieve your goals
+               </p>
+            </div>
+         </div>
+      </div>
+      <hr class="line">
+      <!-- Price Section -->
+      <div class="container" id="third-section">
+         <h2 id="third-section-title">Choose Your Training Plan</h2>
+         <div class="columns">
+            <ul class="price">
+               <li class="header">Bodybuilding</li>
+               <li class="grey">$25</li>
+               <li>Bulk / Cut Template</li>
+               <li>6 week cycle</li>
+               <li>Increase muscle size</li>
+               <li>Increase muscle volume</li>
+               <li class="grey"><a href="#" class="button">BUY NOW</a></li>
+            </ul>
+         </div>
+         <div class="columns">
+            <ul class="price">
+               <li class="header" style="background-color:#4CAF50">Powerlifting</li>
+               <li class="grey">$50</li>
+               <li>Increase PL Total</li>
+               <li>16 weeks cycle</li>
+               <li>Increase total by 100kg</li>
+               <li>Increase Wilks by 80 points</li>
+               <li class="grey"><a href="#" class="button">BUY NOW</a></li>
+            </ul>
+         </div>
+         <div class="columns">
+            <ul class="price">
+               <li class="header">Powerbuilding</li>
+               <li class="grey">$ 30.99</li>
+               <li>Increase muscle and strength</li>
+               <li>8 weeks cycle</li>
+               <li>Increase total by 30kg</li>
+               <li>Increase Wilks by 40 points</li>
+               <li class="grey"><a href="#" class="button">BUY NOW</a></li>
+            </ul>
+         </div>
+      </div>
+      <!-- Contact Us section --> 
+      <div class="container" id="fourth-section">
+         <div class="center">
+            <hr class="second_line">
+         </div>
+         <h2 id="third-section-title"><a href="#" id="contact">Contact US</a></h2>
+      </div>
+      <!-- JS, Popper JS, Jquery -->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.2.0/jquery.fitvids.min.js"></script>
+      <!-- my script -->
+      <script type="text/javascript" src="js/index.js"></script>
+   </body>
 </html>
